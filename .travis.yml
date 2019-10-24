@@ -2,3 +2,9 @@ language: node_js
 
 install: skip
 script: skip
+
+deploy:
+  -provider: script
+  skip_cleanup: true
+  script: bash scripts/deploy.sh
+$OBSIDIAN_PASSWORD
