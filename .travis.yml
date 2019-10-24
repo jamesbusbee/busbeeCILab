@@ -8,3 +8,4 @@ deploy:
   username: James
   password: AZURE_PASSWORD
   site: https://cilab.azurewebsites.net
+  edge: true
