@@ -4,7 +4,7 @@ install: skip
 script: skip
 
 deploy:
-  -provider: script
-  skip_cleanup: true
-  script: bash scripts/deploy.sh
-$OBSIDIAN_PASSWORD
+  -provider: azure_web_apps
+  username: James
+  password: AZURE_PASSWORD
+  site: https://cilab.azurewebsites.net
