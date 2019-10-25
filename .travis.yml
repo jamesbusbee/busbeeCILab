@@ -7,4 +7,4 @@ deploy:
   provider: azure_web_apps
   username: James
   password: AZURE_PASSWORD
-  site: https://cilab.azurewebsites.net
+  site: https://labcinew.azurewebsites.net
