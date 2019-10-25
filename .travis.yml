@@ -5,6 +5,6 @@ script: skip
 
 deploy:
   provider: azure_web_apps
-  username: jbuzz4
+  username: AZURE_USERNAME
   password: AZURE_PASSWORD
-  site: https://labcinew.azurewebsites.net
+  site: AZURE_SITE
